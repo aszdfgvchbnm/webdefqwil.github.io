@@ -36,7 +36,17 @@ header {
  font-weight: 700;
  padding: 17px  55px;
  margin-top: 33px;
+ /*анимация кнопки*/
+ -webkit-transition: 0.2em;
+ -o-transition: 0.2em;
+ transition: 0.2em;
+ cursor: pointer	
 }
+/*анимация кнопки*/
+.header-button:hover {
+ box-shadow: none;
+ }
+
 header small {
  font-size: 12px;
  display: block;
@@ -150,6 +160,15 @@ padding-bottom: 110px;
 	font-size: 18px;
 	border-radius: 50px;
 	padding: 12px 38px;
+	/*анимация кнопки*/
+	-webkit-transition: 0.2em;
+	-o-transition: 0.2em;
+	transition: 0.2em;
+}
+/*анимация кнопки*/
+.footer-button:hover {
+	background-color: #fff;
+	color: #3a7dfd
 }
 .footer-fedback {
 	color: #deedfe;
